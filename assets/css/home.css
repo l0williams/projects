@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} 
+body{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.vid{
+    object-fit: cover;
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.nav-header{
+    display: none;
+}
+.tg{
+    width: 5%;
+    height: 5%;
+}
+.div-header{
+    display: flex;
+    align-items: flex-start;
+    margin: 2.5rem;
+}
+.a-header{
+    color: white;
+    text-decoration: none;
+}
+.div-main{
+    color: white;
+    margin: 2.5rem;
+}
+span{
+    border-style: solid;
+    border-color: red;
+    padding: 1rem;
+    margin: 1rem;
+    outline: solid 2px red;
+    outline-offset: 3px;
+}
+button{
+    background-color: transparent;
+    color: white;
+    border-style: solid;
+    border-color: white;
+}
+button:hover{
+    border-color: red;
+}
+.div-last{
+    position: fixed;
+    left: 85%;
+    top: 50%;
+}
+.lb{
+    padding: 1rem;
+}
+.a-last{
+    color: white;
+    text-decoration: none;
+}
+hr{
+ border: 1px solid red;
+ width: 50%;
+}
+.div-main > pre{
+    margin: 1rem;
+    font-size: larger;
+}
+.h2{
+    margin: 1rem;
+    font-size: larger;
+}
+.div-main > p{
+    margin: 1rem;
+    font-size: larger;
+}
+.mb{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: larger;
+
+}
+.backB{
+    padding: 1rem;
+}
+
+@media screen and (max-width:412px) {
+    .mp{
+        white-space: pre-wrap;
+        max-width: 100%;
+    }
+}
